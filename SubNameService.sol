@@ -15,7 +15,7 @@ contract SubNS is Ownable {
     Resolver[] public s_Resolver;
     address public CletCoreContract;
 
-    function setEssentials(address _address) public onlyOwner {
+    function setBaseContract(address _address) public onlyOwner {
         CletCoreContract = _address;
     }
 
